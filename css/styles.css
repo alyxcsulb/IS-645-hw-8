@@ -1,0 +1,25 @@
+/* a.	Border: 1px solid black
+b.	Collapse the border
+c.	Left and right padding: 5px
+d.	Table header background color: lightgray
+e.	Font: Calibri (can use that for the entire document)
+f.	Include a "catch" method.  It's OK to write errors to the console (instead of the HTML page) */
+
+
+/* a/b border e font */
+table{
+    border: 1px solid black;
+    border-collapse: 1px collapse;
+    font-style: Calibri;
+}
+
+/* c padding */
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* d table header */
+th{
+    background-color: lightgray;
+}
